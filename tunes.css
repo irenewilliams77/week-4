@@ -51,7 +51,7 @@ margin-left: 100px;
     transition-property: transform;
     transition-duration: 2s;
 }
-.btn:hover{
+.submit:hover{
     transform-rotateY:(180deg);
 }
 @keyframes btn{
@@ -65,7 +65,8 @@ margin-left: 100px;
 }
 #lorem{
     position: relative;
-    animation-name: lorem;
+    bottom: 100px ;
+   animation-name: lorem;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 
