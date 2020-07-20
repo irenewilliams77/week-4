@@ -51,8 +51,8 @@ margin-left: 100px;
     transition-property: transform;
     transition-duration: 2s;
 }
-.submit:hover{
-    transform-rotateY:(180deg);
+#btn:hover{
+    rotate:(180deg);
 }
 @keyframes btn{
  0% {opacity: 0;};
@@ -60,7 +60,7 @@ margin-left: 100px;
 }
 
 #userInput {
-   border: beige;
+   border: rgb(77, 8, 59) 2px solid;
 
 }
 #lorem{
