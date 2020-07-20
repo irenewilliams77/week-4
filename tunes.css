@@ -1,13 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(5, 5, 138);
     color: cornsilk;
     line-height: 2;
     text-align: center;
+    border: 1px cornsilk dashed;
 }
 
 .container{
@@ -15,19 +17,62 @@ max-width: 960px;
 height: 500px;;
 padding: 0 50px;
 margin-top: 400px;
+background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/DJ-Backgrounds-Desktop-Download.jpg);
+background-size: cover;
+background-position: justify;
+margin-left: 100px;
 }
 
-.welcome{
-    margin-top: 350px;
-   font-size: 50px;
+#welcome{
+    font-family:ft Helsingfurt ;
+   font-size: 40px;
    line-height: 1.5;
    position: relative;
    animation: heading;
-   animation-duration: 3s;
+   animation-duration: 10s;
    animation-fill-mode: forward;
 }
 
 @keyframes heading {
     0% {top: -50px;}
     100%{top: 300px}
+}
+
+#submit{
+    display: inline;
+    padding: 1rem 2 rem;
+    color: rgb(207, 26, 26);
+    text-decoration: none;
+    border:#fff 2px solid;
+    
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+#btn:hover{
+    rotate:(180deg);
+}
+@keyframes btn{
+ 0% {opacity: 0;};
+ 100%{opacity: 1};   
+}
+
+#userInput {
+   border: rgb(77, 8, 59) 2px solid;
+
+}
+#lorem{
+    position: relative;
+    bottom: 100px ;
+   animation-name: lorem;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes lorem{
+0% {left: -1000px;}
+100%{left: 0;}
 }
