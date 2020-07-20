@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(5, 5, 138);
+    color: cornsilk;
+    line-height: 2;
+    text-align: center;
+}
+
+.container{
+max-width: 960px;
+height: 500px;;
+padding: 0 50px;
+margin-top: 400px;
+}
+
+.welcome{
+    margin-top: 350px;
+   font-size: 50px;
+   line-height: 1.5;
+   position: relative;
+   animation: heading;
+   animation-duration: 3s;
+   animation-fill-mode: forward;
+}
+
+@keyframes heading {
+    0% {top: -50px;}
+    100%{top: 300px}
+}
